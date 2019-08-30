@@ -1,2 +1,4 @@
-# bashsome
-Some useful bash scripts :computer:
+# Bashsome
+
+
+## Some useful bash scripts :computer:
