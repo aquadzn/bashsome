@@ -29,12 +29,8 @@ set expandtab
 set autoindent
 let g:rainbow_active = 1
 set completeopt-=preview
-let g:lightline = {
-  \     'active': {
-  \         'left': [['mode', 'paste' ], ['readonly', 'filename', 'modified']],
-  \         'right': [['lineinfo'], ['percent'], ['fileformat', 'fileencoding']]
-  \     }
-  \ }
+set laststatus=2
+set noshowmode
 
 inoremap " ""<left>
 inoremap ' ''<left>

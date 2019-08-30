@@ -7,6 +7,7 @@ sudo apt-get install vim -y
 
 echo "Installing and configuring VIM / Vundle..."
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-wget https://raw.githubusercontent.com/aquadzn/bashsome/master/src/.vimrc
+cp $OLDPWD/src/.vimrc $HOME
 vim +PluginInstall +qall
-rm install.sh
+clear
+echo "VIM is installed!"
