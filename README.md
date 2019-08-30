@@ -1,8 +1,20 @@
 # Bashsome
 
 
-## Some useful bash scripts :computer:
+## Installation :construction::
 
+
+```bash
+git clone git@github.com:aquadzn/bashsome.git && cd bashsome/
+```
+
+**or**
+
+```bash
+git clone https://github.com/aquadzn/bashsome.git
+```
+
+## Some useful bash scripts :computer:
 
 * **VIM** with some plugins: ```bash vim.sh```
 ---

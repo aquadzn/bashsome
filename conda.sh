@@ -7,7 +7,7 @@ if [ $1 = conda ]; then
 
     sudo apt-get update
     mkdir ~/.conda
-    wget https://repo.anaconda.com/archive/$NAME-$VER-$OS.sh -O ~/anaconda.sh
+    wget https://repo.anaconda.com/archive/$NAME-$VS-$OS.sh -O ~/anaconda.sh
     bash ~/anaconda.sh -b -p ~/$NAME
     sudo rm ~/anaconda.sh
     export PATH=~/$NAME/bin:$PATH
@@ -17,7 +17,7 @@ if [ $1 = conda ]; then
     exec bash
     echo "$NAME installed!"
 elif [ $1 = miniconda ]; then
-    NAME="Anaconda3"
+    NAME="Miniconda3"
 
     sudo apt-get update
     mkdir ~/.conda
