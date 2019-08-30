@@ -10,7 +10,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'zxqfl/tabnine-vim'
 Plugin 'luochen1990/rainbow'
 Plugin 'itchyny/lightline.vim'
-
+Plugin 'scrooloose/nerdtree'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -31,6 +31,7 @@ let g:rainbow_active = 1
 set completeopt-=preview
 set laststatus=2
 set noshowmode
+map <C-n> :NERDTreeToggle<CR>
 
 inoremap " ""<left>
 inoremap ' ''<left>
