@@ -11,7 +11,7 @@ git clone git@github.com:aquadzn/bashsome.git && cd bashsome/
 **or**
 
 ```bash
-git clone https://github.com/aquadzn/bashsome.git
+git clone https://github.com/aquadzn/bashsome.git && cd bashsome/
 ```
 
 ## Some useful bash scripts :computer:
