@@ -25,5 +25,5 @@ git clone https://github.com/aquadzn/bashsome.git && cd bashsome/
 ---
 * **Docker** installer: ```bash docker.sh```
 ---
-* **All** install all scripts:
+* **All** install all scripts: ```bash all.sh miniconda env_name cpu```
 ---
