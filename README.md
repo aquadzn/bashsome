@@ -23,3 +23,6 @@ git clone https://github.com/aquadzn/bashsome.git && cd bashsome/
 ---
 * **Pytorch** env creator: ```bash pytorch.sh name_of_env cpu``` or ```bash pytorch.sh name_of_env gpu```
 ---
+* **Docker** installer: ```bash docker.sh```
+---
+*
