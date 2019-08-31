@@ -21,5 +21,5 @@ git clone https://github.com/aquadzn/bashsome.git && cd bashsome/
 * **Conda** or **Miniconda** distribution auto-installer: ```bash conda.sh
   conda``` or ```bash conda.sh miniconda```
 ---
-* **Pytorch** env creator: ```bash pytorch.sh name_of_env```
+* **Pytorch** env creator: ```bash pytorch.sh name_of_env cpu``` or ```bash pytorch.sh name_of_env gpu```
 ---
