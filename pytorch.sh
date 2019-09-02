@@ -10,3 +10,4 @@ elif [ $VS = gpu ]; then
 fi
 clear \
     && echo "You can now activate $NAME environment."
+cd -

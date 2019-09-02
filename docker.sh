@@ -18,3 +18,4 @@ sudo apt-get install -y docker-ce
 sudo usermod -aG docker $USER
 clear \
     && echo "Docker successfully installed!"
+cd -

@@ -31,3 +31,4 @@ elif [ $1 = miniconda ]; then
     exec bash
     echo "$NAME installed!"
 fi
+cd -
