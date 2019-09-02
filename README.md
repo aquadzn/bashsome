@@ -27,3 +27,8 @@ git clone https://github.com/aquadzn/bashsome.git && cd bashsome/
 ---
 * **All** install all scripts: ```bash all.sh miniconda env_name cpu```
 ---
+
+
+## Miscellaneous:
+
+* Usefull **bash_aliases**: ```mv src/.bash_aliases ~/```
