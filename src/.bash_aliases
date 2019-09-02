@@ -8,6 +8,6 @@ function acp() {
     read -p 'File to add: ' file 
     git add $file
     read -p 'Commit message: ' msg
-    git commit -a -m "$msg"
+    git commit -m "$msg"
     git push
 }
