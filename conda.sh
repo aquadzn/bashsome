@@ -1,5 +1,3 @@
-cd $HOME
-
 if [ $1 = conda ]; then
     NAME="Anaconda3"
     VS="2019.07"
@@ -11,10 +9,9 @@ if [ $1 = conda ]; then
     bash ~/anaconda.sh -b -p ~/$NAME
     sudo rm ~/anaconda.sh
     export PATH=~/$NAME/bin:$PATH
-    source ~/.bashrc
-    conda init
+    conda init bash
     conda config --set auto_activate_base false
-    exec bash
+    . ~/.bashrc
     echo "$NAME installed!"
 elif [ $1 = miniconda ]; then
     NAME="Miniconda3"
@@ -25,10 +22,8 @@ elif [ $1 = miniconda ]; then
     bash ~/miniconda.sh -b -p ~/$NAME
     sudo rm ~/miniconda.sh
     export PATH=~/$NAME/bin:$PATH
-    source ~/.bashrc
-    conda init
+    conda init bash
     conda config --set auto_activate_base false
-    exec bash
+    . ~/.bashrc
     echo "$NAME installed!"
 fi
-cd -
