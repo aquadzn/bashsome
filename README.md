@@ -32,3 +32,5 @@ git clone https://github.com/aquadzn/bashsome.git && cd bashsome/
 ## Miscellaneous:
 
 * Usefull **bash_aliases**: ```mv src/.bash_aliases ~/```
+---
+* [Gogh](https://github.com/mayccoll/Gogh) terminal themes: ```wget -O gogh https://git.io/vQgMr && chmod +x gogh && ./gogh && rm gogh``` (Google dark)
