@@ -9,7 +9,7 @@ function acp() {
     git add $file
     read -p 'Commit message: ' msg
     git commit -m "$msg (acp :robot:)"
-    git push
+    git push origin master
 }
 
 function gc {
