@@ -14,9 +14,12 @@ function acp() {
 
 function gc {
     if [ $# -eq 0 ]; then
+        read -p 'Please enter GitHub user: ' USER
         read -p 'Enter GitHub repo name: ' REPO
-        git clone "git@github.com:aquadzn/$REPO.git"
+        git clone "git@github.com:$USER/$REPO.git"
     elif [ $# -eq 1 ]; then 
         git clone "git@github.com:aquadzn/$1.git"
+    elif [ $# -eq 2 ]; then
+        git clone "git@github.com:$1/$2.git"
     fi
 }
