@@ -31,3 +31,13 @@ function gcp {
         gcloud compute instances stop pytorch-firstai --zone=europe-west1-b
     fi
  }
+
+ function repo {
+    curl --silent "https://api.github.com/users/aquadzn/repos?page=1&per_page=100" | jq '.[].ssh_url' | while read repo
+    do
+        repo="${repo%\"}"
+        repo="${repo#\"}"
+        repo="${repo#"git@github.com:"}"
+        echo "$repo"
+    done
+ }
