@@ -26,9 +26,8 @@ function gc {
 
 function gcp {
     if [ $1 = "start" ]; then
-        gcloud compute instances start pytorch-firstai --zone=europe-west1-b &&
-        gcloud compute ssh pytorch-firstai --zone=europe-west1-b
+        gcloud compute instances start pytorch-firstai --zone=europe-west1-b && ssh pytorch-firstai.europe-west1-b.machine-virtuelle-simplon
     elif [ $1 = "stop" ]; then
         gcloud compute instances stop pytorch-firstai --zone=europe-west1-b
     fi
-}
+ }
