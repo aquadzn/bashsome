@@ -11,6 +11,10 @@ Plugin 'zxqfl/tabnine-vim'
 Plugin 'luochen1990/rainbow'
 Plugin 'itchyny/lightline.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'ekalinin/Dockerfile.vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
