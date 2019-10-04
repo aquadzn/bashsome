@@ -13,6 +13,7 @@ Plugin 'itchyny/lightline.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'iamcco/markdown-preview.vim'
 Plugin 'ekalinin/Dockerfile.vim'
 
 " All of your Plugins must be added before the following line
