@@ -7,23 +7,25 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'zxqfl/tabnine-vim'
 Plugin 'luochen1990/rainbow'
 Plugin 'itchyny/lightline.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'godlygeek/tabular'
 Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'sheerun/vim-polyglot'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-syntax enable
+syntax on
+colorscheme monokai
 set path+=**
 set wildmenu
 set number
+hi Normal ctermbg=none
+highlight NonText ctermbg=none
 set encoding=utf-8
-set background=dark
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
