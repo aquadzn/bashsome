@@ -16,18 +16,10 @@ git clone https://github.com/aquadzn/bashsome.git && cd bashsome/
 
 ## Some useful bash scripts :computer:
 
-* **VIM** with some plugins: ```bash vim.sh```
+* **VIM** and **TMUX** with plugins and dotfiles: ```bash vim_tmux.sh```
 ---
-* **Conda** or **Miniconda** distribution auto-installer: ```bash conda.sh
-  conda``` or ```bash conda.sh miniconda```
+* **Conda** or **Miniconda** distribution auto-installer: ```bash conda.sh conda``` or ```bash conda.sh miniconda```
 ---
-* **Pytorch** env creator: ```bash pytorch.sh name_of_env cpu``` or ```bash pytorch.sh name_of_env gpu```
----
-* **Docker** installer: ```bash docker.sh```
----
-* **All** install VIM, Docker and Conda: ```bash all.sh miniconda``` or ```bash all.sh conda```
----
-
 
 ## Miscellaneous:
 
